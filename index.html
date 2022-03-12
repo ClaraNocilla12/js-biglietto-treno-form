@@ -23,21 +23,21 @@
                     </div>
                     <div class="col-2">
                         <h6>Nome Cognome</h6>
-                        <input type="text">
+                        <input type="text" id="nome_cognome">
                     </div>
                     <div class="col-1">
 
                     </div>
                     <div class="col-2">
                         <h6>Km da percorrere</h6>
-                        <input type="number">
+                        <input type="number" id="km">
                     </div>
                     <div class="col-1">
 
                     </div>
                     <div class="col-2">
                         <h6>Fascia d'età</h6>
-                        <select name="" id="">
+                        <select name="" id="eta">
                             <option value="overDiciotto"> over 18 </option>
                             <option value="underDiciotto"> under 18 </option>
                             <option value="overSessantacinque"> over 65 </option>
@@ -50,8 +50,8 @@
                 <div class="row pb-3">
                     <div class="col-4"></div>
                     <div class="col-4 d-flex justify-content-center">
-                        <button type="button" class="btn btn-secondary me-3">Genera</button>
-                        <button type="button" class="btn btn-secondary ms-3">Annulla</button>
+                        <button type="button" id="b_genera" class="btn btn-secondary me-3">Genera</button>
+                        <button type="button" id="b_annulla" class="btn btn-secondary ms-3">Annulla</button>
                     </div>
                     <div class="col-4"></div>
                 </div>
@@ -65,7 +65,7 @@
 
         </div>
 
-        <div>
+        <div id="biglietto" class="d-none">
 
             <h2 class="text-light text-uppercase pt-4 text-center">il tuo biglietto</h2>
             <div class="container">
@@ -77,30 +77,30 @@
                     <div class="row"> -->
                         <div class="col-3 bg-secondary ">
                             <h5 class="text-uppercase pt-2">nome passeggero</h5>
-                            <div>ihi</div>
+                            <div id="nome_passeggero"></div>
 
                         </div>
                         <div class="col-2 pt-3 ps-3 border border-end-0">
                             <h6>Offerta</h6>
-                            <div class="pt-5">ihuihu</div>
+                            <div id="offerta_passeggero"class="pt-5"></div>
                         </div>
                         
 
                         <div class="col-2 pt-3 ps-3 border border-start-0 border-end-0">
                         <h6>Carrozza</h6>
-                        <div class="pt-5">ihuihu</div>
+                        <div id="carrozza" class="pt-5">ihuihu</div>
                         </div>
                         
 
                         <div class="col-2 pt-3 ps-3 border border-start-0 border-end-0">
                             <h6>Codice CP</h6>
-                            <div class="pt-5">ihuihu</div>
+                            <div id="codeCp" class="pt-5">ihuihu</div>
                         </div>
                         
 
                         <div class="col-2 pt-3 ps-5 border border-start-0 border-end-0">
                             <h6>Costo biglietto</h6>
-                            <div class="pt-5">ihuihu</div>
+                            <div id="costo_biglietto" class="pt-5">ihuihu</div>
                         </div>
                         <div class="col-1 border border-start-0 border-end-0"></div>
                     </div>
